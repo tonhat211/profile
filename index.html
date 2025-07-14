@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Nhat's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header" class="active">
+      <div style="flex: 1"></div>
+      <nav class="hide_mob">
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      
+      </nav>
+      <i class="fa-solid fa-bars bar-btn hide show_mob" onclick="showSecondNav();"></i>
+    </header>
+
+    <div id="second-nav" class="hidden">
+      <div class="overlay" onclick="closeSecondNav();"></div>
+        <ul class="menu-list">
+          <li><a href="#about" onclick="closeSecondNav();">About</a></li>
+          <li><a href="#skill" onclick="closeSecondNav();">Skill</a></li>
+          <li><a href="#experience" onclick="closeSecondNav();">Experience</a></li>
+          <li><a href="#education" onclick="closeSecondNav();">Education</a></li>
+          <li><a href="#contact" onclick="closeSecondNav();">Contact</a></li>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="content">
+      <section id="about">
+        <div class="grid-col-6 d-flex j-center" style="height: 100%;padding-top: 15%; z-index: 1; position: relative;">
+          <div class="about_content">
+            <h1 style="font-size: 2.6rem">
+              Hello, I'm <span>To Nhat</span>
+            </h1>
+            <p>Learning new things is always interesting</p>
+            <a class="custom-btn" style="margin-top: 20px; display: inline-block;"
+              >
+              Download my CV
+            </a>
+          </div>
+        </div>
+        <img src="./assets/imgs/pic-1.png" alt="" class="avatar" />
+      </section>
+
+      <section id="skill" class="d-flex">
+        <div class="grid-col-6 left d-flex al-center j-center grid-col-4_tab hide_mob">
+          <img src="./assets/svgs/skill.svg" alt="skill" width="70%" />
+        </div>
+        <div class="grid-col-6 right d-flex al-center j-center grid-col-8_tab grid-col-12_mob">
+          <div>
+            <h2 style="font-size: 2.2rem">My skills</h2>
+            <div id="skill-list">
+       
+            </div>
+   
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2 style="font-size: 2.2rem">Work experience</h2>
+        <p style="font-size: 1rem; color: gray;">The following projects were developed throughout my time at university as part of coursework and personal learning.</p>
+        <div id="experience-list" class="grid-row">
+          <div class="experience-item grid-col-6 p-10 grid-col-12_mob">
+            <div class="experience-item_content">
+              <a href="./assets/imgs/thien_long_imgs/tl_avatar.png" target="_blank" class="img_container">
+               <img src="./assets/imgs/thien_long_imgs/tl_avatar.png" alt=""/>
+              </a>
+              <!-- <img src="./assets/imgs/thien_long_imgs/tl_avatar.png" alt="" /> -->
+              <p class="title">title</p>
+              <p class="description">description</p>
+              <div class="action-btns-container grid-row grid-col-12 j-evenly mt-20">
+                <button class="custom-btn view-demo-btn">
+                  View demo
+                </button>
+                <a class="custom-outline-btn not-a to-github-a" href="#" target="_blank">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="d-flex" style="justify-content: center;">
+      
+         <div class="grid-col-4 left d-flex j-center grid-col-6_mob" style="flex-direction: column; ">
+            <h2 style="font-size: 2.2rem">Education</h2>
+            <p style="color: gray; line-height: 1.4rem;">I'm 4th year student at Nong Lam University, 
+              </br>majoring in Infomation Technology
+              </br>(2021-2025)
+            </p>
+        </div>
+        <div class="grid-col-4 right d-flex al-center j-center grid-col-6_mob">
+          <div class="logo-container grid-col-6 grid-col-9_tab grid-col-9_mob">
+            <img src="./assets/imgs/Logo_HCMUAF.svg.png" alt="nlu_logo" class="pic-1 above" onclick="changePosition();"/>
+            <img src="./assets/imgs/fit_logo.jpg" alt="fit_logo" class="pic-2 below" onclick="changePosition();"/>
+          </div>
+         
+        </div>
+      </section>
+
+      <section id="contact" class="d-flex al-center j-center" style="flex-direction: column;">
+        <h2 style="font-size: 2.2rem; margin-bottom: 20px;">Contact Me <img src="./assets/imgs/phone.png" alt="" style="width: 2.2rem;"></h2>
+        <a href="mailto:tominh.nhat03@gmail.com" class="email"><i class="fa-solid fa-envelope"></i><span>tominh.nhat03@gmail.com</span></a>
+        <a href="tel:0385135584" class="phone"><i class="fa-solid fa-phone"></i><span>0385135584</span></a>
+        <a href="https://www.google.com/maps?q=Ho+Chi+Minh+City" target="_blank" rel="noopener noreferrer" class="address"><i class="fa-solid fa-location-dot"></i><span> Hồ Chí Minh city</span></a>
+      </section>
+    </div>
+    <i id="backToTop" class="fa-solid fa-hand-point-up custom-btn back-to-top-btn"></i>
+   
+
+    <footer>
+      <p style="font-size: 1rem;">Made with <img src="./assets/imgs/heart.png" alt="" style="width: 1rem;"> by tonhat</p>
+    </footer>
+    <div id="modal" class="hidden">
+      <div class="overlay" onclick="closeModal();"></div>
+      <div class="modal_content">
+        <i class="fa-solid fa-xmark close-modal-btn" onclick="closeModal();"></i>
+        <p class="modal_content_title" style="text-align: center; font-size: 1.4rem; font-weight: 600;">title</p>
+        <div class="grid-row imgs-show">
+
+        </div>
+      </div>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

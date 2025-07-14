@@ -1,0 +1,286 @@
+/* mobile */
+@media (min-width: 0px) and (max-width: 719px) {
+  section {
+    min-height: 40vh;
+    height: fit-content;
+  }
+
+  section h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .about_content {
+    padding-left: 40px;
+  }
+
+  .about_content h1 {
+    font-size: 1rem !important;
+  }
+
+  .about_content p {
+    font-size: 0.6rem !important;
+  }
+
+  .about_content a {
+    margin-top: 10px !important;
+  }
+
+  .custom-outline-btn,
+  .custom-btn {
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 0.4rem;
+  }
+
+  .skill-item p {
+    font-size: 0.5rem;
+  }
+
+  .experience-item_content {
+    padding: 5px;
+    height: 215px;
+  }
+
+  .experience-item_content .img_container {
+    width: 100%;
+  }
+
+  .experience-item_content .title {
+    margin-top: 6px;
+  }
+
+  #experience p {
+    font-size: 0.6rem !important;
+  }
+
+  #experience .description {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 4px;
+  }
+
+  .experience-item_content .action-btns-container {
+    margin-top: 6px !important;
+  }
+
+  #education p {
+    font-size: 0.6rem !important;
+    line-height: 0.8rem !important;
+  }
+
+  #contact a {
+    font-size: 0.6rem !important;
+  }
+
+  #contact a i {
+    width: 20px;
+    height: 20px;
+    font-size: 0.6rem !important;
+  }
+
+  #contact a span {
+    font-size: 0.6rem !important;
+  }
+
+  #modal {
+    align-items: start;
+  }
+
+  #modal .modal_content {
+    margin-top: 10%;
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+  .modal_content_title {
+    font-size: 1rem !important;
+  }
+
+  .back-to-top-btn {
+    font-size: 1rem !important;
+    padding: 6px !important;
+  }
+
+  #footer p {
+    font-size: 0.6rem !important;
+  }
+
+  #footer img {
+    width: 0.6rem !important;
+  }
+
+  .grid-col-0_5_mob {
+    width: 4.17%;
+  }
+
+  .grid-col-1_mob {
+    width: 8.33% !important;
+  }
+
+  .grid-col-2_mob {
+    width: 16.66% !important;
+  }
+
+  .grid-col-4_mob {
+    width: 33.33% !important;
+  }
+
+  .grid-col-5_mob {
+    width: 41.67% !important;
+  }
+
+  .grid-col-6_mob {
+    width: 50% !important;
+  }
+
+  .grid-col-7_mob {
+    width: 58.33% !important;
+  }
+
+  .grid-col-8_mob {
+    width: 66.67% !important;
+  }
+
+  .grid-col-9_mob {
+    width: 75% !important;
+  }
+
+  .grid-col-10_mob {
+    width: 83.33% !important;
+  }
+
+  .grid-col-11_mob {
+    width: 91.67% !important;
+  }
+
+  .grid-col-12_mob {
+    width: 100% !important;
+  }
+
+  .hide_mob {
+    display: none !important;
+  }
+
+  .show_mob {
+    display: block !important;
+  }
+
+  @keyframes leftIn {
+    from {
+      opacity: 0;
+      transform: translateX(-140px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* tablet */
+/* @media (min-width: 740px) and (max-width: 1024px) {
+    
+} */
+@media (min-width: 720px) and (max-width: 1024px) {
+  section {
+    min-height: 40vh;
+    height: fit-content;
+  }
+
+  section h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .about_content {
+    padding-left: 40px;
+  }
+
+  .skill-item p {
+    font-size: 0.6rem;
+  }
+
+  #modal {
+    align-items: start;
+  }
+
+  #modal .modal_content {
+    margin-top: 10%;
+    max-height: 50%;
+  }
+
+  .fs-0_4rem {
+    font-size: 0.4rem;
+  }
+  .grid-col-4_tab {
+    width: 33.33% !important;
+  }
+
+  .grid-col-5_tab {
+    width: 41.67% !important;
+  }
+
+  .grid-col-6_tab {
+    width: 50% !important;
+  }
+
+  .grid-col-7_tab {
+    width: 58.33% !important;
+  }
+
+  .grid-col-8_tab {
+    width: 66.67% !important;
+  }
+
+  .grid-col-9_tab {
+    width: 75% !important;
+  }
+
+  .grid-col-10_tab {
+    width: 83.33% !important;
+  }
+
+  .grid-col-12_tab {
+    width: 100% !important;
+  }
+
+  @keyframes leftIn {
+    from {
+      opacity: 0;
+      transform: translateX(-140px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* pc */
+@media (min-width: 1024px) {
+}
