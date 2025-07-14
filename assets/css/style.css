@@ -234,10 +234,12 @@ section {
   font-size: 2.2rem;
 }
 
+.skill-item img.svg,
 .skill-item svg {
   color: gray;
   width: 50%;
-  height: 50%;
+  /* height: 50%; */
+  aspect-ratio: 1/1;
   display: block;
 }
 

@@ -29,7 +29,11 @@
   .custom-btn {
     padding: 4px 6px;
     border-radius: 4px;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
+  }
+
+  .skill-item {
+    min-height: 80px;
   }
 
   .skill-item p {
@@ -208,6 +212,10 @@
 
   .about_content {
     padding-left: 40px;
+  }
+
+  .skill-item {
+    min-height: 90px;
   }
 
   .skill-item p {
