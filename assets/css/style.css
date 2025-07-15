@@ -228,6 +228,23 @@ section {
   min-height: 100px;
   justify-content: space-between;
   background-color: #fff;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#skill .right.active .skill-item {
+  animation: fadeToRight 0.6s ease forwards;
+}
+
+@keyframes fadeToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .skill-item i {
