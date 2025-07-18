@@ -94,7 +94,7 @@ var database_skills = [
   {
     // icon: ` <i class="fa-solid fa-database"></i>`,
     icon: `<img src="./assets/svgs/mysql-icon.svg" alt="skill" class="svg" />`,
-    name: "MySql",
+    name: "MySQL",
   },
 ];
 

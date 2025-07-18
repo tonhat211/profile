@@ -9,6 +9,11 @@
     font-size: 1.6rem !important;
   }
 
+  #about img {
+    width: 60%;
+    top: 30px;
+  }
+
   .about_content {
     padding-left: 40px;
   }
@@ -208,6 +213,11 @@
 
   section h2 {
     font-size: 1.6rem !important;
+  }
+
+  #about img {
+    width: 60%;
+    top: 30px;
   }
 
   .about_content {
